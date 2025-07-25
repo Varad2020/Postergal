@@ -1,0 +1,380 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+}
+.icon{
+    display: flex;
+    padding: 10px;
+}
+.icon,h1{
+
+    font-size: 40px;
+    font-weight: 300;
+    color: black;
+}
+.menu{
+    position: relative;
+    padding:30px;
+}
+.menu a{
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+a.cl{
+    color: rgb(255, 19, 58);
+}
+.menu a:hover{
+    color: orangered;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 2px;
+}
+.bnr{
+    width: 100%;
+    height: 100%;
+}
+.bnr img{
+    width: 100%;
+    height: 100%;
+}
+.side{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(213, 234, 236);
+}
+.side h2{
+    padding-top: 10%;
+    margin-left: 10%;
+    font-style: italic;
+
+}
+.side h1{
+    margin-left: 10%;
+  font-size: 140px;
+  font-weight: 400;
+
+}
+.side button{
+    width: 18%;
+    margin-left: 10%;
+    padding: 15px;
+    color: rgb(4, 4, 4);
+    background-color: pink;
+    border: none;
+    font-size: 15px;
+}
+.sec2{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+   justify-content: space-evenly;
+   margin-top: 100px;
+
+   
+
+}
+.container {
+    width: 30%;
+    height: 40vh;
+
+    background: #e89ca4;
+    background-image: url(bgside1.avif); 
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+  }
+
+  .card {
+    background: white;
+    width: 60%;
+    height: 80%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+  }
+  .card h2{
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 14px;
+  }
+  .card h1{
+    font-size: 25px;
+
+  }
+.card a{
+
+    font-size: 20px;
+  }
+  .card a:hover{
+    color: rgb(244, 7, 54);
+  }
+
+  .container1 {
+    width: 30%;
+    height: 40vh;
+    background: white;
+    background-image: url(bg.webp); 
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card1 {
+    background: white;
+    width: 60%;
+    height: 80%;
+ 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+  }
+  .card1 h2{
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 14px;
+  }
+  .card1 h1{
+    font-size: 30px;
+  }
+  .card1 button{
+    margin-left: 60px;
+    width: 50%;
+    height: 15%;
+    background-color: rgb(152, 231, 231);
+  }
+.sec3{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+
+}
+.seccon{
+    width:40%;
+
+}
+.seccon h1{
+    font-size: 80px;
+    padding-left: 60px;
+
+}
+.seccon h5,p{
+    margin-top: 20px;
+    font-style: italic;
+    padding-left: 60px;
+}
+.seccon1{
+    width: 40%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.frame {
+    width:80% ;
+    height: 60%;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.top img {
+    position: relative;
+ z-index: -1;
+    margin: 50px;
+    width: 110%;
+    height: 60%;
+
+}
+.sec4{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+
+}
+
+.sec4con{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: -300px;
+    width: 40%;
+    height: 100vh;
+    background-color: aqua;
+}
+.sec4con img{
+    width: 60%;
+    height: 60%;
+}
+.sec4con h1{
+    margin-top: -10px;
+    text-decoration: underline;
+}
+.sec4con a{
+    margin-top: 10px;
+    color: black;
+}
+.sec4con2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    background-color: pink;
+}
+.sec4con2 img{
+    width: 80%;
+    height: 80%;
+}
+.sec4con2 h1{
+    text-decoration: underline;
+}
+.sec4con2 a{
+    margin-top: 10px;
+    color: black;
+}
+
+.sec51{
+    width: 40%;
+    height: 85vh;
+    display: flex;
+    margin: 100px;
+    margin-top: -100px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 4px solid black;
+}
+.sec51 img{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    z-index: -1;
+}
+.sch{
+    padding:40px;
+}
+.sch h1{
+    font-size: 25px;
+}
+.sch a{
+    color: black;
+}
+.ft{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec6{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.sec6 img{
+    width: 25%;
+    height: 200px;
+}
+
+
+.sub{
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-container {
+
+    width:40%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 20px;
+    color: gray;
+}
+
+input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.checkbox-container {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.subscribe-button {
+    margin-top: 20px;
+    background-color: #e29797;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: #d18484;
+}
+
+.social-icons {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.fa-brands{
+    padding: 20px;
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-instagram{
+    color: red;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: gray;
+}
+footer a {
+    color: gray;
+    text-decoration: underline;
+}
